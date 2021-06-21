@@ -18,7 +18,7 @@
     background-image: url("../images/inner-citadel.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: var(--blue);
+    background-color: darkslategrey;
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -35,7 +35,6 @@
     border-radius: 30px;
     border-style: solid;
     padding: 10px 60px;
-    box-shadow: 5px 5px;
 }
 
 .button-grid {
