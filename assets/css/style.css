@@ -1,15 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  :root {
+    --blue: rgb(46, 134, 193, 0.9);
+    --red: rgb(176, 58, 46, 0.9);
+    --green: rgb(30, 132, 73, 0.9);
+    --orange: rgb(202, 111, 30, 0.9);
   }
 
   body {
+    background-image: url("../images/inner-citadel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--blue);
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
+}
+
+#question {
+    background-color: rgba(255,255,255,0.5);
+    font-family: 'Audiowide';
+    font-size: 50px;
+    border-width: 8px;
+    border-color: black;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 10px 60px;
+    box-shadow: 5px 5px;
 }
 
 .button-grid {
@@ -26,9 +52,35 @@
 }
 
 .button {
-    border-width: 5px;
-    border-color: black;
+    border-width: 10px;
+    border-color: white;
     border-radius: 40px;
     border-style: solid;
-    padding: 10px 10px;
+    padding: 10px 100px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.button1 {
+    background-color: var(--blue);
+}
+
+.button2 {
+    background-color: var(--green);
+}
+
+.button3 {
+    background-color: var(--orange);
+}
+
+.button4 {
+    background-color: var(--red);
 }
