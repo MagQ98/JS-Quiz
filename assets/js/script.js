@@ -64,8 +64,8 @@ let questions = [
         correct : "A"
     },{
         question : "Who does Barla Von work for?",
-        choiceA : "The Blood Pack",
-        choiceB : "The Shadow Broker",
+        choiceA : "Blood Pack",
+        choiceB : "Shadow Broker",
         choiceC : "Eclipse",
         choiceD : "The Consort",
         correct : "B"
