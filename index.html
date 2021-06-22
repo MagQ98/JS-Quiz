@@ -12,7 +12,29 @@
 </head>
 
 <body>
+
     <div class="container">
+        <div id="start-area">
+            <button class="button">Start Quiz</button>
+        </div>
+        <div id="quiz" style="display: none"> 
+            <div id="question-area">
+                <div id="question">Question</div>
+            </div>
+            <div id="choices" class="button-grid">
+                <button class="choice button button1" id="A" onclick="checkAnswer('A')"></button>
+                <button class="choice button button2" id="B" onclick="checkAnswer('B')"></button>
+                <button class="choice button button3" id="C" onclick="checkAnswer('C')"></button>
+                <button class="choice button button4"id= "D" onclick="checkAnswer('C')"></button>
+            </div>
+            <div id="progress"></div>
+            <div id="scoreContainer" style="display: none"></div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+    <!--<div class="container">
         <div id="question-area">
             <div id="question">Question</div>
             <div id="answers" class="button-grid">
@@ -34,10 +56,4 @@
                 </button>
             </div>
         </div>
-    </div>
-
-
-    <script src="assets/js/script.js"></script>
-</body>
-
-</html>
+    </div> -->
