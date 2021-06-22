@@ -8,10 +8,10 @@
   }
 
   :root {
-    --blue: rgb(46, 134, 193, 0.9);
-    --red: rgb(176, 58, 46, 0.9);
-    --green: rgb(30, 132, 73, 0.9);
-    --orange: rgb(202, 111, 30, 0.9);
+    --blue: #4F62BA;
+    --red: #C82D44;
+    --green: #4EBC55;
+    --orange: #FF6F47;
   }
 
   body {
@@ -97,7 +97,7 @@
     font-size: 1.25em;
 }
 
-#progress{
+/*#progress{
     position:relative;
     text-align: center;
     padding:5px;
@@ -110,6 +110,26 @@
     border-radius: 50%;
     margin-left : 5px;
     margin-right : 5px;
+}
+
+*/
+
+
+#progress {
+    position: relative;
+    text-align: center;
+    padding: 11px 4px 1px 4px;
+    background: whitesmoke;
+    display: inline;
+    border: black 6px solid;
+    border-radius: 20%;
+}
+
+.prog {
+    width: 50px;
+    height: 20px;
+    border-left: 3px solid whitesmoke;
+    display: inline-block;
 }
 
 #scoreContainer{

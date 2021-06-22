@@ -1,4 +1,3 @@
-// select all elements
 const start = document.getElementById("start");
 const quiz = document.getElementById("quiz");
 const question = document.getElementById("question");
@@ -11,7 +10,7 @@ const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
 
-// create our questions
+
 let questions = [
     {
         question : "Who created the genophage?",
@@ -86,14 +85,12 @@ let questions = [
     },
 ];
 
-// create some variables
 
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let count = 0;
 let score = 0;
 
-// render a question
 function renderQuestion(){
     let q = questions[runningQuestion];
     
@@ -106,7 +103,6 @@ function renderQuestion(){
 
 start.addEventListener("click",startQuiz);
 
-// start quiz
 function startQuiz(){
     start.style.display = "none";
     renderQuestion();
@@ -114,24 +110,20 @@ function startQuiz(){
     renderProgress();
 }
 
-// render progress
 function renderProgress(){
     for(let qIndex = 0; qIndex <= lastQuestion; qIndex++){
         progress.innerHTML += "<div class='prog' id="+ qIndex +"></div>";
     }
 }
 
-// checkAnwer
-
 function checkAnswer(answer){
     if( answer == questions[runningQuestion].correct){
-        // answer is correct
+        
         score++;
-        // change progress color to green
+        
         answerIsCorrect();
     }else{
-        // answer is wrong
-        // change progress color to red
+        
         answerIsWrong();
     }
     count = 0;
@@ -139,23 +131,36 @@ function checkAnswer(answer){
         runningQuestion++;
         renderQuestion();
     }else{
-        // end the quiz and show the score
-       //scoreRender();//
 
       return window.location.assign('/end.html')
     }
 }
 
-// answer is correct
+
 function answerIsCorrect(){
-    document.getElementById(runningQuestion).style.backgroundColor = "#0f0";
+    document.getElementById(runningQuestion).style.backgroundColor = "rgb(14,185,254)";
 }
 
-// answer is Wrong
 function answerIsWrong(){
-    document.getElementById(runningQuestion).style.backgroundColor = "#f00";
+    document.getElementById(runningQuestion).style.backgroundColor = "rgb(230,24,9)";
 };
 
+function scoreRender(){
+    scoreDiv.style.display = "block";
+    
+    // calculate the amount of question percent answered by the user
+    const scorePerCent = Math.round(100 * score/questions.length);
+    
+    // choose the image based on the scorePerCent
+    let img = (scorePerCent >= 80) ? "img/5.png" :
+              (scorePerCent >= 60) ? "img/4.png" :
+              (scorePerCent >= 40) ? "img/3.png" :
+              (scorePerCent >= 20) ? "img/2.png" :
+              "img/1.png";
+    
+    scoreDiv.innerHTML = "<img src="+ img +">";
+    scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
+}
 
 
 
