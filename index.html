@@ -11,53 +11,19 @@
     <title>Mass Effect Quiz</title>
 </head>
 
-<!--<body>
-
-    <div class="container">
-        <div id="start-area">
-            <button id="start" class="button">Start Quiz</button>
-        </div>
-        <div id="quiz" style="display: none"> 
-            <div id="question-area">
-                <div id="question">Question</div>
-            </div>
-            <div id="choices" class="button-grid">
-                <button class="choice button button1" id="A" onclick="checkAnswer('A')"></button>
-                <button class="choice button button2" id="B" onclick="checkAnswer('B')"></button>
-                <button class="choice button button3" id="C" onclick="checkAnswer('C')"></button>
-                <button class="choice button button4"id= "D" onclick="checkAnswer('C')"></button>
-            </div>
-            <div id="timer">
-                <div id="counter"></div>
-                <div id="btimeGauge"></div>
-                <div id="timeGauge"></div>
-            </div>
-            <div id="progress"></div>
-            <div id="scoreContainer" style="display: none"></div>
-    </div>
-
-    <script src="assets/js/script.js"></script>
-</body>-->
-
 <body>
     <div id="container">
-        <div id="start">Start Quiz!</div>
+        <div id="start" class="button">Start Quiz</div>
         <div id="quiz" style="display: none">
             <div id="question"></div>
-            <div id="choices">
-                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
-                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
-                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
-                <div class="choice" id="D" onclick="checkAnswer('D')"></div>
-            </div>
-            <div id="timer">
-                <div id="counter"></div>
-                <div id="btimeGauge"></div>
-                <div id="timeGauge"></div>
+            <div id="choices" class="button-grid">
+                <div class="choice button button1" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice button button2" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice button button3" id="C" onclick="checkAnswer('C')"></div>
+                <div class="choice button button4" id="D" onclick="checkAnswer('D')"></div>
             </div>
             <div id="progress"></div>
         </div>
-        <!--<div id="scoreContainer" style="display: none"></div>-->
     </div>
     <script src="assets/js/script.js"></script>
 </body>

@@ -14,48 +14,76 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "What is 2 + 2?",
-        choiceA : "6",
-        choiceB : "4",
-        choiceC : "22",
-        choiceD : "8",
+        question : "Who created the genophage?",
+        choiceA : "Turians",
+        choiceB : "Protheans",
+        choiceC : "Vorcha",
+        choiceD : "Salarians",
+        correct : "D"
+    },{
+        question : "What side effects does Kaidan Alenko suffer from because of his L2 Biotic Implants?",
+        choiceA : "Dizziness",
+        choiceB : "Insomnia",
+        choiceC : "Migraines",
+        choiceD : "Tremors",
+        correct : "C"
+    },{
+        question : "The Drell share which other race’s homeworld?",
+        choiceA : "Salarians",
+        choiceB : "Elcor",
+        choiceC : "Hanar",
+        choiceD : "Asari",
         correct : "B"
     },{
-        question : "What does 2 stand for?",
-        choiceA : "Wrong",
-        choiceB : "Correct",
-        choiceC : "Wrong",
-        choiceD : "8",
+        question : "On what planet does Shepard first encounter the Asari scientist Liara?",
+        choiceA : "Feros",
+        choiceB : "Therom",
+        choiceC : "Noveria",
+        choiceD : "Tuchanka",
         correct : "B"
     },{
-        question : "What does 3 stand for?",
-        choiceA : "Wrong",
-        choiceB : "Wrong",
-        choiceC : "Correct",
-        choiceD : "8",
+        question : "Who created the Geth?",
+        choiceA : "Reapers",
+        choiceB : "Quarians",
+        choiceC : "Turians",
+        choiceD : "Drell",
+        correct : "B"
+    },{
+        question : "What is Samara's daughter Morinth?",
+        choiceA : "Justicar",
+        choiceB : "Spectre",
+        choiceC : "Ardat Yakshi",
+        choiceD : "Commando",
         correct : "C"
     },{
-        question : "What does 4 stand for?",
-        choiceA : "Wrong",
-        choiceB : "Wrong",
-        choiceC : "Correct",
-        choiceD : "8",
-        correct : "C"
+        question : "What was the name of the Prothean V.I on Ilos?",
+        choiceA : "Vigil",
+        choiceB : "Glyph",
+        choiceC : "EDI",
+        choiceD : "Avina",
+        correct : "A"
     },{
-        question : "What does 5 stand for?",
-        choiceA : "Wrong",
-        choiceB : "Wrong",
-        choiceC : "Correct",
-        choiceD : "8",
-        correct : "C"
+        question : "Who does Barla Von work for?",
+        choiceA : "The Blood Pack",
+        choiceB : "The Shadow Broker",
+        choiceC : "Eclipse",
+        choiceD : "The Consort",
+        correct : "B"
     },{
-        question : "What does 6 stand for?",
-        choiceA : "Wrong",
-        choiceB : "Wrong",
-        choiceC : "Correct",
-        choiceD : "8",
-        correct : "C"
-    }
+        question : "Which Of These Is Not The Name Of A Nightclub Found Across The Trilogy?",
+        choiceA : "Flux",
+        choiceB : "Purgatory",
+        choiceC : "Dark Star",
+        choiceD : "Inferno",
+        correct : "D"
+    },{
+        question : "The Protheans Are Deities To The Hanar; What Is Their Religious Name?",
+        choiceA : "The Collectors",
+        choiceB : "The Enkindlers",
+        choiceC : "The Old Gods",
+        choiceD : "The Inspirits",
+        correct : "B"
+    },
 ];
 
 // create some variables
@@ -126,26 +154,7 @@ function answerIsCorrect(){
 // answer is Wrong
 function answerIsWrong(){
     document.getElementById(runningQuestion).style.backgroundColor = "#f00";
-}
-
-// score render
-function scoreRender(){
-    scoreDiv.style.display = "block";
-    
-    // calculate the amount of question percent answered by the user
-    const scorePerCent = Math.round(100 * score/questions.length);
-    
-    // choose the image based on the scorePerCent
-    let img = (scorePerCent >= 80) ? "img/5.png" :
-              (scorePerCent >= 60) ? "img/4.png" :
-              (scorePerCent >= 40) ? "img/3.png" :
-              (scorePerCent >= 20) ? "img/2.png" :
-              "img/1.png";
-    
-    scoreDiv.innerHTML = "<img src="+ img +">";
-    scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
-}
-
+};
 
 
 
