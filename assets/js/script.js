@@ -112,7 +112,9 @@ function checkAnswer(answer){
         renderQuestion();
     }else{
         // end the quiz and show the score
-        scoreRender();
+       //scoreRender();//
+
+      return window.location.assign('/end.html')
     }
 }
 
