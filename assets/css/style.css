@@ -4,18 +4,17 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nova Square', sans-serif;
   }
 
   :root {
-    --blue: #4F62BA;
-    --red: #C82D44;
-    --green: #4EBC55;
-    --orange: #FF6F47;
+    --blue: rgb(79, 98, 186);
+    --red: rgb(200, 45, 68);
+    --green: rgb(78, 188, 85);
+    --orange: rgb(255, 111, 71);
   }
 
   body {
-    background-image: url("../images/inner-citadel.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: darkslategrey;
@@ -40,18 +39,18 @@
     text-align: center;
 }
 .begin {
-    border: 8px black solid ;
-    border-radius: 40px;
+    border: 6px black solid;
+    border-radius: 30px;
     padding: 25px 100px;
-    font-size: 10px;
-    color: white;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(255, 255, 255, 0.6);
 }
 
 .begin-grid {
     display: grid;
     grid-template-columns: repeat(1, auto);
     gap: 10px;
-    margin: 30px 20px;
 }
 
 .button {
@@ -60,6 +59,7 @@
     padding: 25px 100px;
     font-size: 40px;
     color: white;
+    text-decoration: none;
 }
 
 .button:hover, #start:hover{
@@ -85,19 +85,33 @@
     background-color: var(--red);
 }
 
+.play1 {
+    color: var(--blue);
+    border-color: var(--blue);
+    background-color: rgb(163, 173, 219, 0.8);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.play2 {
+    color: var(--red);
+    border-color: var(--red);
+    background-color: rgb(231, 151, 163, 0.8);
+    font-weight: 600;
+    font-size: 30px;
+}
+
 #start{
     background-color: rgba(255, 255, 255, 0.6);
 }
 
-#question {
+#question, text {
     font-size: 35px;
     border-width: 6px;
     border-color: black;
     border-radius: 20px;
     border-style: solid;
     width: 80vw;
-    right: 0;
-    top: 0;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 15px 20px;
 }
@@ -124,4 +138,19 @@
     height: 20px;
     border-left: 3px solid whitesmoke;
     display: inline-block;
+}
+
+.logo1 {
+    width: 40vw;
+    height: 20vh;
+}
+
+.logo2 {
+    width: 30px;
+    height: 30px;
+}
+
+.opening {
+    font-size: 30px;
+    font-weight: bold;
 }
