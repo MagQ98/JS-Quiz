@@ -5,8 +5,6 @@ const choiceA = document.getElementById("A");
 const choiceB = document.getElementById("B");
 const choiceC = document.getElementById("C");
 const choiceD = document.getElementById("D");
-const counter = document.getElementById("counter");
-const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
 
@@ -32,7 +30,7 @@ let questions = [
         choiceB : "Elcor",
         choiceC : "Hanar",
         choiceD : "Asari",
-        correct : "B"
+        correct : "C"
     },{
         question : "On what planet does Shepard first encounter the Asari scientist Liara?",
         choiceA : "Feros",
@@ -144,39 +142,3 @@ function answerIsCorrect(){
 function answerIsWrong(){
     document.getElementById(runningQuestion).style.backgroundColor = "rgb(230,24,9)";
 };
-
-function scoreRender(){
-    scoreDiv.style.display = "block";
-    
-    // calculate the amount of question percent answered by the user
-    const scorePerCent = Math.round(100 * score/questions.length);
-    
-    // choose the image based on the scorePerCent
-    let img = (scorePerCent >= 80) ? "img/5.png" :
-              (scorePerCent >= 60) ? "img/4.png" :
-              (scorePerCent >= 40) ? "img/3.png" :
-              (scorePerCent >= 20) ? "img/2.png" :
-              "img/1.png";
-    
-    scoreDiv.innerHTML = "<img src="+ img +">";
-    scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
