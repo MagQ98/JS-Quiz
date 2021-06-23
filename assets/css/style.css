@@ -42,7 +42,7 @@
     border: 6px black solid;
     border-radius: 30px;
     padding: 25px 100px;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
     background-color: rgb(255, 255, 255, 0.6);
 }
@@ -62,11 +62,18 @@
     text-decoration: none;
 }
 
-.button:hover, #start:hover{
+.button:hover {
     cursor: pointer;
     box-shadow: 1px 1px 1px;
     transition: transform 150ms;
     transform: scale(1.03);
+}
+
+#start:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px;
+    transition: transform 100ms;
+    transform: scale(1.10);
 }
 
 .button1 {
@@ -85,6 +92,18 @@
     background-color: var(--red);
 }
 
+#home {
+    background-image: url(../images/Citadel.png)
+}
+
+#index {
+    background-image: url(../images/inner-citadel.jpg)
+}
+
+#end {
+    background-image: url(../images/normandy.png)
+}
+
 .play1 {
     color: var(--blue);
     border-color: var(--blue);
@@ -101,7 +120,8 @@
     font-size: 30px;
 }
 
-#start{
+#start {
+    font-size: 60px;
     background-color: rgba(255, 255, 255, 0.6);
 }
 
