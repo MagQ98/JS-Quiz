@@ -116,9 +116,10 @@ function checkAnswer(answer) {
         runningQuestion++;
         renderQuestion();
     } else {
-        return window.location.assign('/end.html')
+        return window.location.assign('/end.html');
     }
 }
+checkAnswer();
 
 function answerIsCorrect() {
     document.getElementById(runningQuestion).style.backgroundColor = "rgb(14,185,254)";
@@ -126,4 +127,4 @@ function answerIsCorrect() {
 
 function answerIsWrong() {
     document.getElementById(runningQuestion).style.backgroundColor = "rgb(230,24,9)";
-};
+}
