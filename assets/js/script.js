@@ -119,7 +119,6 @@ function checkAnswer(answer) {
         return window.location.assign('/end.html');
     }
 }
-checkAnswer();
 
 function answerIsCorrect() {
     document.getElementById(runningQuestion).style.backgroundColor = "rgb(14,185,254)";
