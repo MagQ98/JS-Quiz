@@ -91,15 +91,19 @@ function renderQuestion() {
     choiceD.innerHTML = q.choiceD;
 }
 
-start.addEventListener("click", startQuiz);
+//start button to begin quiz
+start.onclick = function () {
+    startQuiz()
+};
 
+//removes start button and shows quiz section with questions
 function startQuiz() {
     start.style.display = "none";
     renderQuestion();
     quiz.style.display = "block";
     renderProgress();
 }
-
+//adds colored div to progress bar with each question
 function renderProgress() {
     for (let qIndex = 0; qIndex <= lastQuestion; qIndex++) {
         progress.innerHTML += "<div class='prog' id=" + qIndex + "></div>";
@@ -122,8 +126,10 @@ function checkAnswer(answer) {
 
 function answerIsCorrect() {
     document.getElementById(runningQuestion).style.backgroundColor = "rgb(14,185,254)";
+    document.getElementById(runningQuestion).innerHTML = '<i class="fas fa-check"></i>';
 }
 
 function answerIsWrong() {
     document.getElementById(runningQuestion).style.backgroundColor = "rgb(230,24,9)";
+    document.getElementById(runningQuestion).innerHTML = '<i class="fas fa-times"></i>';
 }

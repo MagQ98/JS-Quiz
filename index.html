@@ -8,24 +8,32 @@
     <meta name="description" content=>
     <meta name="keywords" content=>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/images/favicon2.ico">
+    <link rel="icon" href="assets/images/favicon.ico">
     <title>Mass Effect Quiz</title>
 </head>
 
 <body id="index">
-    <div id="container">
-        <div id="start" class="button">Start Quiz</div>
-        <div id="quiz" style="display: none">
-            <div id="question"></div>
-            <div id="choices" class="button-grid">
-                <div class="choice button button1" id="A" onclick="checkAnswer('A')"></div>
-                <div class="choice button button2" id="B" onclick="checkAnswer('B')"></div>
-                <div class="choice button button3" id="C" onclick="checkAnswer('C')"></div>
-                <div class="choice button button4" id="D" onclick="checkAnswer('D')"></div>
-            </div>
-            <div id="progress"></div>
+
+    <div class="container begin-grid">
+        <div class="opening">
+            <p>Are you the ultimate</p>
+            <img class="logo" src="assets/images/Mass-effect-logo.png" alt="Mass effect Mass-effect-logo">
+            <p>fan?</p>
+        </div>
+        <div class="box text">
+            <p>Put your Mass Effect knowledge to the test with this simple quiz!</p>
+        </div>
+        <div class="container begin-grid">
+            <a class="box button play1" href="/game.html">Play
+                <img class="logo2" src="assets/images/favicon.ico" alt="Paragon Icon">
+            </a>
+            <a class="box button play2" href="/highscore.html">HighScores
+                <img class="logo2" src="assets/images/favicon2.ico" alt="Renegade Icon">
+            </a>
         </div>
     </div>
+
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

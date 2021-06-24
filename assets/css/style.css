@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
+/*Styles for all pages*/
 * {
     margin: 0;
     padding: 0;
     font-family: 'Nova Square', sans-serif;
-  }
+}
 
-  :root {
+:root {
     --blue: rgb(79, 98, 186);
     --red: rgb(200, 45, 68);
     --green: rgb(78, 188, 85);
     --orange: rgb(255, 111, 71);
-  }
+}
 
-  body {
+body {
     background: no-repeat center center fixed;
     background-size: cover;
     background-color: lightgrey;
@@ -25,6 +26,8 @@
     align-items: center;
     text-align: center;
 }
+
+/*Game button styles*/
 
 .button-grid {
     display: grid;
@@ -38,6 +41,7 @@
     align-items: center;
     text-align: center;
 }
+
 .box {
     border: 6px black solid;
     border-radius: 30px;
@@ -54,7 +58,7 @@
 }
 
 .button {
-    border: 8px white solid ;
+    border: 8px white solid;
     border-radius: 40px;
     padding: 25px 100px;
     font-size: 40px;
@@ -62,7 +66,7 @@
     text-decoration: none;
 }
 
-.button:hover {
+.button:hover,#home-button:hover {
     cursor: pointer;
     box-shadow: 1px 1px 1px;
     transition: transform 150ms;
@@ -74,6 +78,7 @@
     box-shadow: 1px 1px 1px;
     transition: transform 100ms;
     transform: scale(1.10);
+    
 }
 
 .button1 {
@@ -104,11 +109,11 @@
     background-color: rgb(78, 188, 85, 0.9);
 }
 
-#home {
+#index {
     background-image: url(../images/Citadel.png)
 }
 
-#index {
+#game {
     background-image: url(../images/inner-citadel.jpg)
 }
 
@@ -137,7 +142,8 @@
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-#question, text {
+#question,
+text {
     font-size: 35px;
     border-width: 6px;
     border-color: black;
@@ -148,17 +154,17 @@
     padding: 15px 20px;
 }
 
-#question p{
+#question p {
     font-family: 'Nova Square', sans-serif;
-    margin : 0;
-    padding : 15px;
+    margin: 0;
+    padding: 15px;
     font-size: 1.25em;
 }
 
 #progress {
     position: relative;
     text-align: center;
-    padding: 11px 4px 1px 4px;
+    padding: 5px;
     background: whitesmoke;
     display: inline;
     border: black 6px solid;
@@ -170,6 +176,7 @@
     height: 20px;
     border-left: 3px solid whitesmoke;
     display: inline-block;
+    color: whitesmoke;
 }
 
 .logo1 {
@@ -181,7 +188,6 @@
     width: 30px;
     height: 30px;
 }
-
 .opening {
     font-size: 30px;
     font-weight: bold;
@@ -197,4 +203,36 @@
     grid-template-columns: repeat(1, auto);
     gap: 10px;
     padding: 10px 50px 10px;
+}
+
+/*End page*/
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    font-size: 35px;
+    padding: 10px 0px;
+}
+
+#score {
+    font-size: 60px;
+    padding: 20px 0px
+}
+
+#score-box {
+    height: 96vh;
+}
+
+.score-home {
+    padding: 20px;
+}
+
+#home-button {
+    font-size: 25px
 }
