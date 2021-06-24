@@ -43,7 +43,7 @@ let questions = [{
     choiceD: "Drell",
     correct: "B"
 }, {
-    question: "What is Samara's daughter Morinth?",
+    question: "What is Samara's daughter, Morinth?",
     choiceA: "Justicar",
     choiceB: "Spectre",
     choiceC: "Ardat Yakshi",
@@ -64,14 +64,14 @@ let questions = [{
     choiceD: "The Consort",
     correct: "B"
 }, {
-    question: "Which Of These Is Not The Name Of A Nightclub Found Across The Trilogy?",
+    question: "Which of these is not the name of a nightclub found across the Mass Effect universe?",
     choiceA: "Flux",
     choiceB: "Purgatory",
     choiceC: "Dark Star",
     choiceD: "Inferno",
     correct: "D"
 }, {
-    question: "The Protheans Are Deities To The Hanar; What Is Their Religious Name?",
+    question: "The Protheans are deities to the Hanar, what is their religious name?",
     choiceA: "The Collectors",
     choiceB: "The Enkindlers",
     choiceC: "The Old Gods",
@@ -81,12 +81,9 @@ let questions = [{
 
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
-let count = 0;
-let score = 0;
 
 function renderQuestion() {
     let q = questions[runningQuestion];
-
     question.innerHTML = "<p>" + q.question + "</p>";
     choiceA.innerHTML = q.choiceA;
     choiceB.innerHTML = q.choiceB;
@@ -111,20 +108,14 @@ function renderProgress() {
 
 function checkAnswer(answer) {
     if (answer == questions[runningQuestion].correct) {
-
-        score++;
-
         answerIsCorrect();
     } else {
-
         answerIsWrong();
     }
-    count = 0;
     if (runningQuestion < lastQuestion) {
         runningQuestion++;
         renderQuestion();
     } else {
-
         return window.location.assign('/end.html')
     }
 }
