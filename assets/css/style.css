@@ -122,6 +122,10 @@ body {
     background-image: url(../images/normandy.png)
 }
 
+#high-score {
+    background-image: url(../images/reapers.jpg)
+}
+
 /*Play and Highscore buttons*/
 
 .play1 {
