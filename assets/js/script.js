@@ -2,7 +2,6 @@
 const start = document.getElementById("start");
 const start2 = document.getElementById("start2");
 const quiz = document.getElementById("quiz");
-const quiz2 = document.getElementById("quiz2");
 const question = document.getElementById("question");
 const question2 = document.getElementById("question");
 const choiceA = document.getElementById("A");
@@ -27,6 +26,20 @@ let questions = [{
     choiceD: "Tremors",
     correct: "C"
 }, {
+    question: "The Drell share which other race’s homeworld?",
+    choiceA: "Salarians",
+    choiceB: "Elcor",
+    choiceC: "Hanar",
+    choiceD: "Asari",
+    correct: "C"
+}, {
+    question: "On what planet does Shepard first encounter the Asari scientist Liara?",
+    choiceA: "Feros",
+    choiceB: "Therom",
+    choiceC: "Noveria",
+    choiceD: "Tuchanka",
+    correct: "B"
+}, {
     question: "Who created the Geth?",
     choiceA: "Reapers",
     choiceB: "Quarians",
@@ -34,12 +47,19 @@ let questions = [{
     choiceD: "Drell",
     correct: "B"
 }, {
-    question: "Which member of Shepard’s squad was killed on Eden Prime?",
-    choiceA: "Lt. Kaiden Alenko",
-    choiceB: "Cpl. Richard L. Jenkins",
-    choiceC: "Adml. David Anderson",
-    choiceD: "Lt. Steve Cortez",
-    correct: "B"
+    question: "What is Samara's daughter, Morinth?",
+    choiceA: "Justicar",
+    choiceB: "Spectre",
+    choiceC: "Ardat Yakshi",
+    choiceD: "Commando",
+    correct: "C"
+}, {
+    question: "What was the name of the Prothean V.I on Ilos?",
+    choiceA: "Vigil",
+    choiceB: "Glyph",
+    choiceC: "EDI",
+    choiceD: "Avina",
+    correct: "A"
 }, {
     question: "Who does Barla Von work for?",
     choiceA: "Blood Pack",
@@ -55,105 +75,85 @@ let questions = [{
     choiceD: "Inferno",
     correct: "D"
 }, {
-    question: "Who was Archangel?",
-    choiceA: "Liara T’soni",
-    choiceB: "Garrus Vakarian",
-    choiceC: "Urdnot Wrex",
-    choiceD: "Kaiden Alenko",
+    question: "The Protheans are deities to the Hanar, what is their religious name?",
+    choiceA: "The Collectors",
+    choiceB: "The Enkindlers",
+    choiceC: "The Old Gods",
+    choiceD: "The Inspirits",
+    correct: "B"
+}, ];
+let questions2 = [{
+    question: "The Drell share which other race’s homeworld?",
+    choiceA: "Salarians",
+    choiceB: "Elcor",
+    choiceC: "Hanar",
+    choiceD: "Asari",
+    correct: "C"
+}, {
+    question: "On what planet does Shepard first encounter the Asari scientist Liara?",
+    choiceA: "Feros",
+    choiceB: "Therom",
+    choiceC: "Noveria",
+    choiceD: "Tuchanka",
     correct: "B"
 }, {
-    question: "What was the name of the Spectre that Saren killed on Eden Prime?",
-    choiceA: "Jondum Bau",
-    choiceB: "Nihlus Kryik",
-    choiceC: "Tela Vasir",
-    choiceD: "Lonar Maerun",
+    question: "What is Samara's daughter, Morinth?",
+    choiceA: "Justicar",
+    choiceB: "Spectre",
+    choiceC: "Ardat Yakshi",
+    choiceD: "Commando",
+    correct: "C"
+}, {
+    question: "What was the name of the Prothean V.I on Ilos?",
+    choiceA: "Vigil",
+    choiceB: "Glyph",
+    choiceC: "EDI",
+    choiceD: "Avina",
+    correct: "A"
+}, {
+    question: "The Protheans are deities to the Hanar, what is their religious name?",
+    choiceA: "The Collectors",
+    choiceB: "The Enkindlers",
+    choiceC: "The Old Gods",
+    choiceD: "The Inspirits",
     correct: "B"
 }, {
-    question: "Who is the Chief Medical Officer aboard the Normandy?",
-    choiceA: "Dr. Saleon",
-    choiceB: "Dr. Solus",
-    choiceC: "Dr. Michel",
-    choiceD: "Dr. Chakwas",
+    question: "What is the oldest known species in the series?",
+    choiceA: "Reapers",
+    choiceB: "Rachni",
+    choiceC: "Turians",
+    choiceD: "Leviathan",
     correct: "D"
 }, {
-    question: "What is the game that can be played at Flux?",
-    choiceA: "Poker",
-    choiceB: "Blackjack",
-    choiceC: "Quasar",
-    choiceD: "Roulette",
-    correct: "C"
-},];
-let questions2 = [{
-    question: "What does 1 stand for?",
-    choiceA: "Wrong",
-    choiceB: "Correct",
-    choiceC: "Wrong",
-    choiceD: "Wrong",
+    question: "How much does Wrex weigh?",
+    choiceA: "1000 lbs",
+    choiceB: "800 lbs",
+    choiceC: "700 lbs",
+    choiceD: "600 lbs",
     correct: "B"
 }, {
-    question: "What does 2 stand for?",
-    choiceA: "Wrong",
-    choiceB: "Correct",
-    choiceC: "Wrong",
-    choiceD: "Wrong",
+    question: "What do the Turians call the First Contact War?",
+    choiceA: "Mass Relay war",
+    choiceB: "Human contact war",
+    choiceC: "The Relay 314 incident",
+    choiceD: "Armistice day",
+    correct: "C"
+}, {
+    question: "What mercenary group did Zaeed Massani and Vido Santiago start?",
+    choiceA: "The Blood Pack",
+    choiceB: "The Blue Suns",
+    choiceC: "Eclipse",
+    choiceD: "Talons",
     correct: "B"
 }, {
-    question: "What does 3 stand for?",
-    choiceA: "Wrong",
-    choiceB: "Wrong",
-    choiceC: "Correct",
-    choiceD: "Wrong",
-    correct: "C"
-}, {
-    question: "What does 4 stand for?",
-    choiceA: "Wrong",
-    choiceB: "Correct",
-    choiceC: "Wrong",
-    choiceD: "Wrong",
+    question: "What year is Mass Effect set?",
+    choiceA: "2327",
+    choiceB: "2183",
+    choiceC: "2098",
+    choiceD: "2156",
     correct: "B"
-}, {
-    question: "What does 5 stand for?",
-    choiceA: "Wrong",
-    choiceB: "Wrong",
-    choiceC: "Correct",
-    choiceD: "Wrong",
-    correct: "C"
-},  {
-    question: "What does 6 stand for?",
-    choiceA: "Wrong",
-    choiceB: "Correct",
-    choiceC: "Wrong",
-    choiceD: "Wrong",
-    correct: "B"
-}, {
-    question: "What does 7 stand for?",
-    choiceA: "Wrong",
-    choiceB: "Wrong",
-    choiceC: "Correct",
-    choiceD: "Wrong",
-    correct: "C"
-}, {
-    question: "What does 8 stand for?",
-    choiceA: "Wrong",
-    choiceB: "Correct",
-    choiceC: "Wrong",
-    choiceD: "Wrong",
-    correct: "B"
-}, {
-    question: "What does 9 stand for?",
-    choiceA: "Wrong",
-    choiceB: "Wrong",
-    choiceC: "Correct",
-    choiceD: "Wrong",
-    correct: "C"
-}, {
-    question: "What does 10 stand for?",
-    choiceA: "Wrong",
-    choiceB: "Wrong",
-    choiceC: "Correct",
-    choiceD: "Wrong",
-    correct: "C"
-},];
+}, ];
+    
 
 //Variables
 const lastQuestion = questions.length - 1;
@@ -187,7 +187,7 @@ start2.onclick = function () {
     startQuiz2()
 };
 
-//removes start button and shows quiz section with questions
+//Remove start button and show quiz section with questions
 function startQuiz() {
     start.style.display = "none";
     start2.style.display = "none";
@@ -203,7 +203,7 @@ function startQuiz2() {
     quiz.style.display = "block";
     renderProgress();
 }
-//Adds colored div to progress bar with each question
+//Add colored div to progress bar with each question
 function renderProgress() {
     for (let qIndex = 0; qIndex <= lastQuestion; qIndex++) {
         progress.innerHTML += "<div class='prog' id=" + qIndex + "></div>";
@@ -239,6 +239,7 @@ function checkAnswer2(answer) {
     }
 }
 
+/*Changes progress bar color if correct or incorrect*/
 function answerIsCorrect() {
     document.getElementById(runningQuestion).style.backgroundColor = "rgb(14,185,254)";
     document.getElementById(runningQuestion).innerHTML = '<i class="fas fa-check"></i>';
@@ -248,4 +249,3 @@ function answerIsWrong() {
     document.getElementById(runningQuestion).style.backgroundColor = "rgb(230,24,9)";
     document.getElementById(runningQuestion).innerHTML = '<i class="fas fa-times"></i>';
 }
-
