@@ -73,13 +73,6 @@ body {
     transform: scale(1.03);
 }
 
-#start:hover {
-    cursor: pointer;
-    box-shadow: 1px 1px 1px;
-    transition: transform 100ms;
-    transform: scale(1.10);  
-}
-
 .button1 {
     background-color: var(--blue);
 }
@@ -146,9 +139,26 @@ body {
 
 /*Quiz button and container stylings*/
 
-#start {
+.start-button, .start-button2 {
     font-size: 60px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: var(--blue);
+    border: solid 8px;
+}
+
+.start-button2 {
+    color: var(--red);
+}
+
+#start:hover, #start2:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px;
+    transition: transform 100ms;
+    transform: scale(1.10);  
+}
+
+.small-text {
+    font-size: 40px;
 }
 
 #question,
