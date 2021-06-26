@@ -3,7 +3,6 @@ const start = document.getElementById("start");
 const start2 = document.getElementById("start2");
 const quiz = document.getElementById("quiz");
 const question = document.getElementById("question");
-const question2 = document.getElementById("question");
 const choiceA = document.getElementById("A");
 const choiceB = document.getElementById("B");
 const choiceC = document.getElementById("C");
@@ -15,9 +14,9 @@ let questions = [{
     question: "Who created the genophage?",
     choiceA: "Turians",
     choiceB: "Protheans",
-    choiceC: "Vorcha",
-    choiceD: "Salarians",
-    correct: "D"
+    choiceC: "Salarians",
+    choiceD: "Vorcha",
+    correct: "C"
 }, {
     question: "What side effects does Kaidan Alenko suffer from because of his L2 Biotic Implants?",
     choiceA: "Dizziness",
@@ -153,7 +152,6 @@ let questions2 = [{
     choiceD: "2156",
     correct: "B"
 }, ];
-    
 
 //Variables
 const lastQuestion = questions.length - 1;
@@ -181,10 +179,10 @@ function renderQuestion2() {
 
 //Start button to begin quiz
 start.onclick = function () {
-    startQuiz()
+    startQuiz();
 };
 start2.onclick = function () {
-    startQuiz2()
+    startQuiz2();
 };
 
 //Remove start button and show quiz section with questions
@@ -219,7 +217,7 @@ function checkAnswer(answer) {
     }
     if (runningQuestion < lastQuestion) {
         runningQuestion++;
-        renderQuestion()
+        renderQuestion();
     } else {
         return window.location.assign('/end.html');
     }
@@ -233,7 +231,7 @@ function checkAnswer2(answer) {
     }
     if (runningQuestion < lastQuestion2) {
         runningQuestion++;
-        renderQuestion2()
+        renderQuestion2();
     } else {
         return window.location.assign('/end.html');
     }
