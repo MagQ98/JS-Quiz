@@ -124,7 +124,7 @@ body {
 .play1 {
     color: var(--blue);
     border-color: var(--blue);
-    background-color: rgb(163, 173, 219, 0.8);
+    background-color: rgb(176,196,222,0.8);
     font-weight: 600;
     font-size: 30px;
 }
