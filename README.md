@@ -1,59 +1,215 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<img>
 
-Welcome MagQ98,
+User Experience
+======
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+### Target Audience
+<ul> 
+<li>School-aged children, to be used as an educational resource</li>
+<li>Targeted at people who would like to expand their knowledge on marine life</li>
+<li>People potentially looking to donate towards shark conservation</li>
+</ul>
 
-## Gitpod Reminders
+### User Requirements
+<ul>
+<li>A simple and efficient navigation system, suitable for any age</li>
+<li>Bright and eye-catching presentation</li>
+<li>Good accessibility</li>
+<li>High quality photos and functioning videos</li>
+<li>Clickable links that lead to external sites for more information</li>
+<li>Factual information from reliable sources</li>
+<li>A trustworthy source of information regarding donating</li>
+</ul>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Stories
 
-`python3 -m http.server`
+#### First-time User 
+<ul>
+<li>I want to easily understand the main purpose of the site and learn more about the dangers sharks are facing</li>
+<li>I want to know I can trust any information provided by the website</li>
+<li>I want the site to be visually appealing</li>
+<li>I want corresponding links that lead to social media and donation pages</li>
+</ul>
 
-A blue button should appear to click: _Make Public_,
+#### Returning User
+<ul>
+<li>I want to see more shark facts</li>
+<li>I want to see a broader range of shark species and some information about any breed listed</li>
+<li>I want more information regarding donating and information about the causes and a place to donate via the site</li>
+<li>I want to be able to provide feedback about the site and submit any suggestions I might have that I would like to see added to the site</li>
+<li>I want to see more social media and youtube links to help me connect to the community involved with shark conservation</li>
+<li>I want to see more photos and videos of the work that is being undergone to help conserve sharks in the wild</li>
+</ul>
 
-Another blue button should appear to click: _Open Browser_.
+Design
+======
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Structure
+<p>The site is designed and structured in a way that is user friendly, easy to navigate and eye-catching. Upon clicking into the site, the user is greeted with a fun, colourful display and a centred logo and a navigation bar, containing four separate pages.</p>
+<p>A home page containing an introduction to what the site is about and relevant information regarding sharks.</p>
+<p>A facts page filled with 10 interesting facts.</p>
+<p>A species page containing a gallery.</p>
+<p>A donation page with relevant, trustworthy links to donate.</p>
 
-A blue button should appear to click: _Make Public_,
+### Color
+<p>For the colour scheme blues, greys and whites were chosen to match the colours of images on the page and also the colour theme of sharks themselves</p>
+<p>After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right</p> 
 
-Another blue button should appear to click: _Open Browser_.
+### Typography
+<p>Open sans was used as a heading and Roboto was used for text. Both fonts were found on Googlefonts and they compliment each other in attractive way that works well throughout the site</p>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Wireframes
+<details>
+<summary>Homepage</summary>
+<img src="assets/images/balsamic-home.JPG" width="100%">
+</details>
+<details>
+<summary>Fact page</summary>
+<img src="assets/images/balsamic-fact.JPG" width="100%">
+</details>
+<details>
+<summary>Species page</summary>
+<img src="assets/images/balsamic-species.JPG" width="100%">
+</details>
+<details>
+<summary>Donate page</summary>
+<img src="assets/images/balsamic-donate.JPG" width="100%">
+</details>
 
-To log into the Heroku toolbelt CLI:
+Features
+======
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Navigation Bar
+<ul>
+<li>Featured on all 4 webpages</li>
+<li>Aids visitors in accessing information</li>
+<li>Utilizes hyperlinks to navigate visitors</li>
+</ul>
+<img src="assets/images/navbar1.JPG" alt="Navigation Bar" style="max-width:100%;">
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+### Hero and Logo image
+<ul>
+<li>Featured on all 4 webpages</li>
+<li>Visually communicates the identity of the site and what it represents</li>
+<li>A symbol for customers to recognise the organisation</li>
+</ul>
+<img src="assets/images/hero-logo-image.JPG" alt="Hero and Logo image" style="max-width:100%;">
 
-## Updates Since The Instructional Video
+### Home Page
+<ul>
+<li>Displays the main focus of the site which is to educate people about the dangers sharks are in</li>
+<li>Piques the interests of visitors to give them a overall impression of what the organisations is working for</li>
+</ul>
+<img src="assets/images/home-page.JPG" alt="Home page" style="max-width:100%;">
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### The Footer
+<ul>
+<li>Adds navigation options to the bottom of the webpage</li>
+<li>Featured on all 4 pages</li>
+<li>Consists of links to the main social media platforms</li>
+</ul>
+<img src="assets/images/footer1.JPG" alt="Footer" style="max-width:100%;">
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Facts Page
+<ul>
+<li>Provides educational information in a fun to learn way</li>
+<li>Full of eye catching colors to keep visitors attention</li>
+<li>Has a zoom increase when you hover over buttons to encourage further exploration of the content</li>
+</ul>
+<img src="assets/images/facts.JPG" alt="Facts Page" style="max-width:100%;">
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Species Page
+<ul>
+<li>Allows visitors to see different breeds of sharks in a striking layout</li>
+<li>Has a zoom increase when you hover to make each picture stand out</li>
+</ul>
+<img src="assets/images/species1.JPG" alt="Species Page" style="max-width:100%;">
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Donate Page
+<ul>
+<li>Provides users with links for different charities for people to donate to their cause of choice</li>
+<li>Raises awareness about the vast amount of organisations committed to helping sharks</li>
+</ul>
+<img src="assets/images/donate.JPG" alt="Donate Page" style="max-width:100%;">
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Future features to implement
+<ul>
+<li>Plan to create corresponding social media sites and link them in the footer</li>
+<li>Plan to link and provide information to local services that aid sharks and marine life in emergencies</li>
+</ul>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Technologies Used
+======
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Languages
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Frameworks & Tools
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<ul>
+<li>Balsamiq</li>
+<li>Tinypng</li>
+<li>Git</li>
+<li>GitHub</li>
+<li>Gitpod</li>
+<li>Google Fonts</li>
+<li>Font Awsome</li>
+</ul>
 
----
+Testing
+======
 
-Happy coding!
+## Validator Testing
+
+### Html
+No errors were returned when passing through the official W3C validator
+
+### Css
+No errors were found when passing through the official (Jigsaw) validator
+
+### Fixed Bugs or Issues
+<ul>
+<li>Encountered an issue on mobile screens with sizing. When the site was viewed on a mobile screen the header was zoomed out and was left with a large white padding on the right side. I was able to correct this bug by changing the viewport initial scale to 0.5 instead of 1.</li>
+<li>Encountered an issue with the facts page. When the facts were hovered on the zoom effect worked but in the process some of the content was pushed off screen and not viewable. I was able to fix this by reducing the padding on the content.</li>
+<li>While creating my website, the original concept was to make the heading colors the same as the hero image picture color but when it was run through a contrast color checker WebAIM, it failed. So instead I had to choose a darker shade of blue for my overall theme which has a contrast ratio of 4.7:1.</li>
+</ul>
+
+<img src="assets/images/fact-bug.JPG" alt="Bug on Fact page" style="max-width:100%;">
+
+Deployment
+======
+
+<p>The site was deployed to GitHub pages. The steps I used to deploy are as follows:</p>
+<p>In my GitHub repository https://github.com/MagQ98/friends-of-fins, I navigated to the Settings tab</p>
+<p>From the source section drop-down menu, I selected the Master Branch</p>
+<p>Once the master branch was selected, the page was automatically refreshed with a detailed ribbon display to indicate the successful deployment.</p>
+
+The live link can be found here - https://magq98.github.io/friends-of-fins/index.html
+
+Credits
+======
+
+Images not referenced below are owned by the developer.
+
+### Content
+
+<p>https://www.fisheries.noaa.gov/feature-story/12-shark-facts-may-surprise-you</p>
+<p>https://www.wwf.org.uk/learn/fascinating-facts/sharks</p>
+<p>https://kidsanimalsfacts.com/saw-shark-facts-for-kids/#:~:text=Sharks-,</p>
+<p>https://www.marineconservation.org.au/actions/donate-sharks/#:~:text=We%20must%20deman</p>
+<p>https://www.w3schools.com/</p>
+
+### Media
+
+<p>https://www.labroots.com/trending/plants-and-animals/443/high-five-from-a-shark</p>
+<p>https://www.pexels.com/</p>
+<p>https://unsplash.com/</p>
+<p>https://codepen.io/brianacamp/pen/QWWOwdM</p>
+
+### Acknowledgements
+
+My mentor and tutor for continuous helpful feedback
