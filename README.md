@@ -5,9 +5,9 @@ User Experience
 
 ### Target Audience
 <ul> 
-<li>School-aged children, to be used as an educational resource</li>
-<li>Targeted at people who would like to expand their knowledge on marine life</li>
-<li>People potentially looking to donate towards shark conservation</li>
+<li>Fans of the Mass Effect franchise by Bioware</li>
+<li>The gaming community as a whole</li>
+<li>Mass effect fans who wish to further test thier knowledge of the game</li>
 </ul>
 
 ### User Requirements
@@ -15,10 +15,7 @@ User Experience
 <li>A simple and efficient navigation system, suitable for any age</li>
 <li>Bright and eye-catching presentation</li>
 <li>Good accessibility</li>
-<li>High quality photos and functioning videos</li>
-<li>Clickable links that lead to external sites for more information</li>
-<li>Factual information from reliable sources</li>
-<li>A trustworthy source of information regarding donating</li>
+<li>High quality photos and functioning buttons</li>
 </ul>
 
 ### User Stories
@@ -56,24 +53,24 @@ Design
 <p>After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right</p> 
 
 ### Typography
-<p>Open sans was used as a heading and Roboto was used for text. Both fonts were found on Googlefonts and they compliment each other in attractive way that works well throughout the site</p>
+<p>Nova Square was the font used for all text in the game. The font was found on Googlefonts and was used because it was easy to read and because it matches the themes present in the Mass Effect franchse.</p>
 
 ### Wireframes
 <details>
 <summary>Homepage</summary>
-<img src="assets/images/balsamic-home.JPG" width="100%">
+<img src="" width="100%">
 </details>
 <details>
-<summary>Fact page</summary>
-<img src="assets/images/balsamic-fact.JPG" width="100%">
+<summary>Game page</summary>
+<img src="" width="100%">
 </details>
 <details>
-<summary>Species page</summary>
-<img src="assets/images/balsamic-species.JPG" width="100%">
+<summary>End page</summary>
+<img src="" width="100%">
 </details>
 <details>
-<summary>Donate page</summary>
-<img src="assets/images/balsamic-donate.JPG" width="100%">
+<summary>Highscore page</summary>
+<img src="" width="100%">
 </details>
 
 Features
