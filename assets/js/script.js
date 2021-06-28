@@ -279,7 +279,7 @@ function checkAnswer(answer) {
         runningQuestion++;
         renderQuestion();
     } else {
-        return window.location.assign('/end.html');
+        return window.location.assign('/JS-Quiz/end.html');
     }
 }
 
