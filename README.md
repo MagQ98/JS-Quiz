@@ -81,89 +81,60 @@ Design
 ### Wireframes
 <details>
 <summary>Homepage</summary>
-<img src="assets/images/Index-page.png" width="100%">
+<img src="../JS-Quiz/assets/images/Index-page.png" width="100%">
+<img >
 </details>
 <details>
 <summary>Game page</summary>
-<img src=".../images/Game-page.png" width="100%">
+<img src="../JS-Quiz/assets/images/Game-page.png" width="100%">
 </details>
 <details>
 <summary>End page</summary>
-<img src=".../assets/images/End-page.png" width="100%">
+<img src="../JS-Quiz/assets/images/End-page.png" width="100%">
 </details>
 <details>
 <summary>Highscore page</summary>
-<img src="/images/Highscore-page.png" width="100%">
+<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
 </details>
 
 Features
 ======
 
 ### Home Page
+<ul>
+<li>Easy accesible buttons to naivagte through the rest of the site</li>
+<li>Piques the interests of visitors to give them a overall impression of what the quiz will be like</li>
+<li>Users are given are clear image of what the site is about</li>
+</ul>
+<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+
 ### Start Buttons
+<ul>
+<li>Allow the users to chose what difficulty quiz they would like to experience</li>
+</ul>
+<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+
 ### Quiz Page
+<ul>
+<li>Displays 10 questions for each difficulty that contain 4 possible choices</li>
+<li>A live bar for users to track their score and progress</li>
+<li>A restart button which allows the user to restart the quiz at any point or choose another difficulty</li>
+</ul>
+<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+
 ### Highscore Page
+<ul>
+<li>Displays the highest scoring users data</li>
+<li>Easy accesible and allows the users to compare their scores against others</li>
+</ul>
+<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+
 ### End Page
-
-### Navigation Bar
 <ul>
-<li>Featured on all 4 webpages</li>
-<li>Aids visitors in accessing information</li>
-<li>Utilizes hyperlinks to navigate visitors</li>
+<li>Shows congratulatory text and ends quiz</li>
+<li>Displays buttons for user to use if they wish to start the quiz again, check the highscores or go to the homepage</li>
 </ul>
-<img src="assets/images/navbar1.JPG" alt="Navigation Bar" style="max-width:100%;">
-
-### Hero and Logo image
-<ul>
-<li>Featured on all 4 webpages</li>
-<li>Visually communicates the identity of the site and what it represents</li>
-<li>A symbol for customers to recognise the organisation</li>
-</ul>
-<img src="assets/images/hero-logo-image.JPG" alt="Hero and Logo image" style="max-width:100%;">
-
-### Home Page
-<ul>
-<li>Displays the main focus of the site which is to educate people about the dangers sharks are in</li>
-<li>Piques the interests of visitors to give them a overall impression of what the organisations is working for</li>
-</ul>
-<img src="assets/images/home-page.JPG" alt="Home page" style="max-width:100%;">
-
-### The Footer
-<ul>
-<li>Adds navigation options to the bottom of the webpage</li>
-<li>Featured on all 4 pages</li>
-<li>Consists of links to the main social media platforms</li>
-</ul>
-<img src="assets/images/footer1.JPG" alt="Footer" style="max-width:100%;">
-
-### Facts Page
-<ul>
-<li>Provides educational information in a fun to learn way</li>
-<li>Full of eye catching colors to keep visitors attention</li>
-<li>Has a zoom increase when you hover over buttons to encourage further exploration of the content</li>
-</ul>
-<img src="assets/images/facts.JPG" alt="Facts Page" style="max-width:100%;">
-
-### Species Page
-<ul>
-<li>Allows visitors to see different breeds of sharks in a striking layout</li>
-<li>Has a zoom increase when you hover to make each picture stand out</li>
-</ul>
-<img src="assets/images/species1.JPG" alt="Species Page" style="max-width:100%;">
-
-### Donate Page
-<ul>
-<li>Provides users with links for different charities for people to donate to their cause of choice</li>
-<li>Raises awareness about the vast amount of organisations committed to helping sharks</li>
-</ul>
-<img src="assets/images/donate.JPG" alt="Donate Page" style="max-width:100%;">
-
-### Future features to implement
-<ul>
-<li>Plan to create corresponding social media sites and link them in the footer</li>
-<li>Plan to add more questions to the quiz and add another difficulty level</li>
-<li>Plan to add a Highscore page that records each users score and allows them to submit it</li>
-</ul>
+<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
 
 Technologies Used
 ======
@@ -204,42 +175,38 @@ No errors were found when passing through the official JSHint validator
 
 ### Fixed Bugs or Issues
 <ul>
-<li>Encountered an issue on mobile screens with sizing. When the site was viewed on a mobile screen the header was zoomed out and was left with a large white padding on the right side. I was able to correct this bug by changing the viewport initial scale to 0.5 instead of 1.</li>
-<li>Encountered an issue with the facts page. When the facts were hovered on the zoom effect worked but in the process some of the content was pushed off screen and not viewable. I was able to fix this by reducing the padding on the content.</li>
-<li>While creating my website, the original concept was to make the heading colors the same as the hero image picture color but when it was run through a contrast color checker WebAIM, it failed. So instead I had to choose a darker shade of blue for my overall theme which has a contrast ratio of 4.7:1.</li>
+<li>Encountered an issue on mobile screens with sizing. When the site was viewed on a mobile screen the highscore page was zoomed out and the Home button was pushed up and overlaping the Highscore call. I was able to correct this bug by reducing the padding on the content.</li>
+<li>Encountered an issue with Javascript. I followed a tutorial initially but when I decided I would like 2 quizzes with different difficulties that meant I had to rewrite many functions because they werent applicable anymore</li>
 </ul>
-
-<img src="assets/images/fact-bug.JPG" alt="Bug on Fact page" style="max-width:100%;">
+<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
 
 Deployment
 ======
 
 <p>The site was deployed to GitHub pages. The steps I used to deploy are as follows:</p>
-<p>In my GitHub repository https://github.com/MagQ98/friends-of-fins, I navigated to the Settings tab</p>
+<p>In my GitHub repository https://github.com/MagQ98/JS-Quiz, I navigated to the Settings tab</p>
 <p>From the source section drop-down menu, I selected the Master Branch</p>
 <p>Once the master branch was selected, the page was automatically refreshed with a detailed ribbon display to indicate the successful deployment.</p>
 
-The live link can be found here - https://magq98.github.io/friends-of-fins/index.html
+The live link can be found here - https://magq98.github.io/JS-Quiz/index.html
 
 Credits
 ======
 
-Images not referenced below are owned by the developer.
+### Tutorials
 
-### Content
-
-<p>https://www.fisheries.noaa.gov/feature-story/12-shark-facts-may-surprise-you</p>
-<p>https://www.wwf.org.uk/learn/fascinating-facts/sharks</p>
-<p>https://kidsanimalsfacts.com/saw-shark-facts-for-kids/#:~:text=Sharks-,</p>
-<p>https://www.marineconservation.org.au/actions/donate-sharks/#:~:text=We%20must%20deman</p>
+<p>https://www.youtube.com/watch?v=TT7ufOKX-U4&ab_channel=VictorWooding </p>
+<p>https://www.youtube.com/watch?v=49pYIMygIcU&ab_channel=CodeExplained</p>
+<p>https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified</p> 
+<p>https://webdevtrick.com/create-javascript-quiz-program/</p>
 <p>https://www.w3schools.com/</p>
 
-### Media
+### Media and Content
 
-<p>https://www.labroots.com/trending/plants-and-animals/443/high-five-from-a-shark</p>
-<p>https://www.pexels.com/</p>
-<p>https://unsplash.com/</p>
-<p>https://codepen.io/brianacamp/pen/QWWOwdM</p>
+<p>https://wall.alphacoders.com/by_collection.php?id=31</p>
+<p>https://wallpapercave.com/mass-effect-1080p-wallpaper</p>
+<p>https://www.proprofs.com/quiz-school/story.php?title=ultimate-mass-effect-quiz</p>
+<p>https://www.sporcle.com/games/amaranth/masseffect_trivia</p>
 
 ### Acknowledgements
 

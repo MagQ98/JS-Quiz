@@ -153,11 +153,84 @@ let questions2 = [{
     correct: "B"
 }, ];
 
+//Array to hold questions
+currentQuizQuestions = [
+    {
+        question: "Who created the genophage?",
+        choiceA: "Turians",
+        choiceB: "Protheans",
+        choiceC: "Salarians",
+        choiceD: "Vorcha",
+        correct: "C"
+    }, {
+        question: "What side effects does Kaidan Alenko suffer from because of his L2 Biotic Implants?",
+        choiceA: "Dizziness",
+        choiceB: "Insomnia",
+        choiceC: "Migraines",
+        choiceD: "Tremors",
+        correct: "C"
+    }, {
+        question: "The Drell share which other race’s homeworld?",
+        choiceA: "Salarians",
+        choiceB: "Elcor",
+        choiceC: "Hanar",
+        choiceD: "Asari",
+        correct: "C"
+    }, {
+        question: "On what planet does Shepard first encounter the Asari scientist Liara?",
+        choiceA: "Feros",
+        choiceB: "Therom",
+        choiceC: "Noveria",
+        choiceD: "Tuchanka",
+        correct: "B"
+    }, {
+        question: "Who created the Geth?",
+        choiceA: "Reapers",
+        choiceB: "Quarians",
+        choiceC: "Turians",
+        choiceD: "Drell",
+        correct: "B"
+    }, {
+        question: "What is Samara's daughter, Morinth?",
+        choiceA: "Justicar",
+        choiceB: "Spectre",
+        choiceC: "Ardat Yakshi",
+        choiceD: "Commando",
+        correct: "C"
+    }, {
+        question: "What was the name of the Prothean V.I on Ilos?",
+        choiceA: "Vigil",
+        choiceB: "Glyph",
+        choiceC: "EDI",
+        choiceD: "Avina",
+        correct: "A"
+    }, {
+        question: "Who does Barla Von work for?",
+        choiceA: "Blood Pack",
+        choiceB: "Shadow Broker",
+        choiceC: "Eclipse",
+        choiceD: "The Consort",
+        correct: "B"
+    }, {
+        question: "Which of these is not the name of a nightclub found across the Mass Effect universe?",
+        choiceA: "Flux",
+        choiceB: "Purgatory",
+        choiceC: "Dark Star",
+        choiceD: "Inferno",
+        correct: "D"
+    }, {
+        question: "The Protheans are deities to the Hanar, what is their religious name?",
+        choiceA: "The Collectors",
+        choiceB: "The Enkindlers",
+        choiceC: "The Old Gods",
+        choiceD: "The Inspirits",
+        correct: "B"
+    }, 
+]
+
 //Variables
 let runningQuestion = 0;
 let lastQuestion = 0;
-currentQuizQuestions = [];
-
 //Show Question
 function renderQuestion() {
     let q = currentQuizQuestions[runningQuestion];
