@@ -129,6 +129,7 @@ body {
     background-color: rgba(176,196,222,0.8);
     font-weight: 600;
     font-size: 30px;
+    justify-content: center;
 }
 
 .play2 {
@@ -137,6 +138,7 @@ body {
     background-color: rgba(231, 151, 163, 0.8);
     font-weight: 600;
     font-size: 30px;
+    justify-content: center;
 }
 
 .score-home {
@@ -191,7 +193,7 @@ text {
     border: 5px white solid;
     border-radius: 10px;
     padding: 10px 10px;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
     text-decoration: none;
     display: inline-block;
@@ -280,6 +282,6 @@ th {
         font-size: 30px;
     }
     .text {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
