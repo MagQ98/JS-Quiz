@@ -24,20 +24,20 @@ User Experience
 
 #### First-time User 
 <ul>
-<li>I want to easily understand the main purpose of the site and learn more about the dangers sharks are facing</li>
+<li>I want to easily understand the main purpose of the site and learn more the game Mass Effect</li>
 <li>I want to know I can trust any information provided by the website</li>
 <li>I want the site to be visually appealing</li>
-<li>I want corresponding links and buttons that lead to social media and donation pages</li>
+<li>I want corresponding links and buttons that lead to the pages they're indicated to</li>
 </ul>
 
 #### Returning User
 <ul>
-<li>I want to see more shark facts</li>
+<li>I want to see more Mass Effect questions</li>
 <li>I want to see a broader range of shark species and some information about any breed listed</li>
 <li>I want more information regarding donating and information about the causes and a place to donate via the site</li>
 <li>I want to be able to provide feedback about the site and submit any suggestions I might have that I would like to see added to the site</li>
-<li>I want to see more social media and youtube links to help me connect to the community involved with shark conservation</li>
-<li>I want to see more photos and videos of the work that is being undergone to help conserve sharks in the wild</li>
+<li>I want to see more social media and youtube links to help me connect to the community involved with Mass Effect</li>
+<li></li>
 </ul>
 
 Design
