@@ -1,4 +1,4 @@
-<img src="assets/images/Highscore-page.png" alt="Am I Responsive view" width="100%">
+<img src="assets/images/Responsive.PNG" alt="Am I Responsive view" width="100%">
 
 User Experience
 ======
@@ -8,7 +8,7 @@ User Experience
 <li>Fans of the Mass Effect franchise by Bioware</li>
 <li>People aged 16 to 35 which is the target audience of the game</li>
 <li>Fans of gaming consoles such as Xbox, Playstation and PC</li>
-<li>People looking to pass time and and expand their test their knowledge of the Mass Effect game</li>
+<li>People looking to pass time and expand their test their knowledge of the Mass Effect game</li>
 <li>The gaming community as a whole</li>
 <li>Trivia fans a those looking to have some fun while expanding their knowledge of the games</li>
 </ul>
@@ -40,7 +40,7 @@ User Experience
 <li>I want to be able to quickly restart the quiz at any time I need</li>
 <li>I want colors and images that are eye-catching and will help keep my attention</li>
 <li>I want to be able to change the difficulty setting of the quiz</li>
-<li>I want to be able to see other users highscores</li>
+<li>I want to be able to see other users high scores</li>
 <li>I want a progress bar to see what question I'm on and to immediately be able to see the result of the previously answered questions</li>
 <li>I want all pictures and fonts to relate back to the videogame</li>
 </ul>
@@ -49,10 +49,10 @@ User Experience
 <ul>
 <li>I want to see more Mass Effect questions</li>
 <li>I want to be able to provide feedback about the site and submit any suggestions I might have that I would like to see added to the site</li>
-<li>I want to see more social media and youtube links to help me connect to the community involved with Mass Effect</li>
+<li>I want to see more social media links to help me connect to the community involved with Mass Effect</li>
 <li>I want there to be more questions in the quiz when you return to the site</li>
 <li>I want there to be the option to answer questions about a specific category in the game</li>
-<li>I want to be able to log my Highscore live and compare it to others</li>
+<li>I want to be able to log my High score live and compare it to others</li>
 <li>I want to see more pictures with each questions</li>
 <li>I want to be able to go back to a previously answered question and change my answer</li>
 </ul>
@@ -64,19 +64,19 @@ Design
 <p>The site is structured in a simple, easy to navigate way</p>
 <p>The buttons and clickable links are big and easy to find</p>
 <p>The homepage provides you with somewhere to navigate to all corresponding pages</p>
-<p>The start page contains buttons and links which allow users to chose their preferred difficulty setting</p>
-<p>There is also a highscore button for users to see the highest scorer and compare scores</p>
-<p>Th quiz itself contains a question and 4 clickable answers</p>
+<p>The start page contains buttons and links which allow users to choose their preferred difficulty setting</p>
+<p>There is also a high score button for users to see the highest scorer and compare scores</p>
+<p>The quiz itself contains a question and 4 clickable answers</p>
 <p>There is a live progress bar below the answers to inform the user of their current score</p>
-<p>There is a restart buttton for the user to restart the quiz at any time</p>
+<p>There is a restart button for the user to restart the quiz at any time</p>
 
 ### Color
-<p>For the color scheme, the main buttons design was choosen to reflect the design used in the Mass Effect franchises user interface</p>
+<p>For the color scheme, the main buttons design was chosen to reflect the design used in the Mass Effect franchises user interface</p>
 <p>The colorful buttons were chosen to make the webpage look more appealing and eye-catching</p>
-<p>After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right</p> 
+<p>After deciding on the color I tested them on WebAIM to make sure the contrast between them was right</p> 
 
 ### Typography
-<p>Nova Square was the font used for all text in the game. The font was found on Googlefonts and was used because it was easy to read and because it matches the themes present in the Mass Effect franchse.</p>
+<p>Nova Square was the font used for all text in the game. The font was found on Googlefonts and was used because it was easy to read and because it matches the themes present in the Mass Effect franchise.</p>
 
 ### Wireframes
 <details>
@@ -101,8 +101,8 @@ Features
 
 ### Home Page
 <ul>
-<li>Easy accesible buttons to naivagte through the rest of the site</li>
-<li>Piques the interests of visitors to give them a overall impression of what the quiz will be like</li>
+<li>Easy accessible buttons to navigate through the rest of the site</li>
+<li>Piques the interests of visitors to give them an overall impression of what the quiz will be like</li>
 <li>Users are given are clear image of what the site is about</li>
 </ul>
 <img src="assets/images/Home.PNG" alt="Homepage" width="100%">
@@ -124,14 +124,14 @@ Features
 ### Highscore Page
 <ul>
 <li>Displays the highest scoring users data</li>
-<li>Easy accesible and allows the users to compare their scores against others</li>
+<li>Easy accessible and allows the users to compare their scores against others</li>
 </ul>
 <img src="assets/images/Highscore.PNG" alt="Highscore page" width="100%">
 
 ### End Page
 <ul>
 <li>Shows congratulatory text and ends quiz</li>
-<li>Displays buttons for user to use if they wish to start the quiz again, check the highscores or go to the homepage</li>
+<li>Display buttons for user to use if they wish to start the quiz again, check the high scores or go to the homepage</li>
 </ul>
 <img src="assets/images/End.PNG" alt="End page" width="100%">
 
@@ -143,7 +143,7 @@ Technologies Used
 <ul>
 <li>HTML</li>
 <li>CSS</li>
-<li>Javascript</li>
+<li>JavaScript</li>
 </ul>
 
 ### Frameworks & Tools
@@ -155,7 +155,7 @@ Technologies Used
 <li>GitHub</li>
 <li>Gitpod</li>
 <li>Google Fonts</li>
-<li>Font Awsome</li>
+<li>Font Awesome</li>
 </ul>
 
 Testing
@@ -163,19 +163,20 @@ Testing
 
 ## Validator Testing
 
-### Html
-No errors were returned when passing through the official W3C validator
+### HTML
+No errors were returned when passing through the official W3C validator.
 
-### Css
-No errors were found when passing through the official (Jigsaw) validator
+### CSS
+No errors were found when passing through the official (Jigsaw) validator.
 
-### Javascript
+### JavaScript
 No errors were found when passing through the official JSHint validator
+There were a few variables being flagged as unused but only because JSHint just reads the Javascript file and not all the CSS, HTML and Javascript at once.
 
 ### Fixed Bugs or Issues
 <ul>
-<li>Encountered an issue on mobile screens with sizing. When the site was viewed on a mobile screen the highscore page was zoomed out and the Home button was pushed up and overlaping the Highscore call. I was able to correct this bug by reducing the padding on the content.</li>
-<li>Encountered an issue with Javascript. I followed a tutorial initially but when I decided I would like 2 quizzes with different difficulties that meant I had to rewrite many functions because they werent applicable anymore</li>
+<li>Encountered an issue on mobile screens with sizing. When the site was viewed on a mobile screen the high score page was zoomed out and the Home button was pushed up and overlapping the Highscore call. I was able to correct this bug by reducing the padding on the content.</li>
+<li>Encountered an issue with Javascript. I followed a tutorial initially but when I decided I would like 2 quizzes with different difficulties that meant I had to rewrite many functions because they weren't applicable anymore.</li>
 </ul>
 <img src="assets/images/Edit1.PNG" alt="Fixed Big image" width="100%">
 
