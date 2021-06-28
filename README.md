@@ -1,4 +1,5 @@
-<img src="" alt="Am I Responsive view" style="max-width:100%;">
+<img src="../JS-Quiz/assets/images/Highscore-page.png" alt="Am I Responsive view" width="100%">
+<img src="assets/images/Highscore-page.png" alt="Am I Responsive view" width="100%">
 
 User Experience
 ======
@@ -179,6 +180,7 @@ No errors were found when passing through the official JSHint validator
 <li>Encountered an issue with Javascript. I followed a tutorial initially but when I decided I would like 2 quizzes with different difficulties that meant I had to rewrite many functions because they werent applicable anymore</li>
 </ul>
 <img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+
 
 Deployment
 ======
