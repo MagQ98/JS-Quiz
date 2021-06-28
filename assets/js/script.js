@@ -170,7 +170,8 @@ function renderQuestion() {
 };
 
 //Start button to begin quiz
-start.onclick = function () {
+
+/*start.onclick = function () {
     currentQuizQuestions = questions
     lastQuestion = currentQuizQuestions.length - 1;
     startQuiz();
@@ -179,19 +180,19 @@ start2.onclick = function () {
     currentQuizQuestions = questions2
     lastQuestion = currentQuizQuestions.length - 1;
     startQuiz();
-};
+};*/
 
-/*function getQuestions1 () {
+function start () {
     currentQuizQuestions = questions
     lastQuestion = currentQuizQuestions.length - 1;
     startQuiz();
 };
 
-function getQuestions2 () {
+function start2 () {
     currentQuizQuestions = questions2
     lastQuestion = currentQuizQuestions.length - 1;
     startQuiz();
-}*/
+}
 
 //Remove start button and show quiz section with questions
 function startQuiz() {
