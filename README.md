@@ -47,14 +47,19 @@ User Experience
 
 #### Returning User
 <ul>
-<li>I want to see more Mass Effect questions</li>
+<li>I want to be able to see more Mass Effect questions</li>
 <li>I want to be able to provide feedback about the site and submit any suggestions I might have that I would like to see added to the site</li>
-<li>I want to see more social media links to help me connect to the community involved with Mass Effect</li>
 <li>I want there to be more questions in the quiz when you return to the site</li>
 <li>I want there to be the option to answer questions about a specific category in the game</li>
-<li>I want to be able to log my High score live and compare it to others</li>
-<li>I want to see more pictures with each questions</li>
-<li>I want to be able to go back to a previously answered question and change my answer</li>
+</ul>
+
+### Future Plans
+
+<ul>
+<li>Plans for users to be able to log their High scores live and compare it to others</li>
+<li>Plans to add individual pictures for each questions</li>
+<li>Plans to let users go back to a previously answered question and change their answers</li>
+<li>Plans to add social media links to help users connect to the community involved with Mass Effect</li>
 </ul>
 
 Design

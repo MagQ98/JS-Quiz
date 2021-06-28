@@ -153,12 +153,13 @@ let questions2 = [{
     correct: "B"
 }, ];
 
-//Array to hold questions
+//Empty array to hold questions
 currentQuizQuestions = [];
 
 //Variables
 let runningQuestion = 0;
 let lastQuestion = 0;
+
 //Show Question
 function renderQuestion() {
     let q = currentQuizQuestions[runningQuestion];
@@ -170,20 +171,21 @@ function renderQuestion() {
 };
 
 //Start button to begin quiz
-
-if(start){
+if (start) {
     start.onclick = function () {
-    currentQuizQuestions = questions
-    lastQuestion = currentQuizQuestions.length - 1;
-    startQuiz();
-};}
+        currentQuizQuestions = questions
+        lastQuestion = currentQuizQuestions.length - 1;
+        startQuiz();
+    };
+}
 
-if(start2){
+if (start2) {
     start2.onclick = function () {
-    currentQuizQuestions = questions2
-    lastQuestion = currentQuizQuestions.length - 1;
-    startQuiz();
-};}
+        currentQuizQuestions = questions2
+        lastQuestion = currentQuizQuestions.length - 1;
+        startQuiz();
+    };
+}
 
 //Remove start button and show quiz section with questions
 function startQuiz() {

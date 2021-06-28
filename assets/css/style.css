@@ -68,7 +68,8 @@ body {
     text-decoration: none;
 }
 
-.button:hover,#home-button:hover {
+.button:hover,
+#home-button:hover {
     cursor: pointer;
     box-shadow: 1px 1px 1px;
     transition: transform 150ms;
@@ -126,7 +127,7 @@ body {
 .play1 {
     color: var(--blue);
     border-color: var(--blue);
-    background-color: rgba(176,196,222,0.8);
+    background-color: rgba(176, 196, 222, 0.8);
     font-weight: 600;
     font-size: 30px;
     justify-content: center;
@@ -138,7 +139,6 @@ body {
     background-color: rgba(231, 151, 163, 0.8);
     font-weight: 600;
     font-size: 30px;
-    justify-content: center;
 }
 
 .score-home {
@@ -147,7 +147,8 @@ body {
 
 /*Quiz button and container stylings*/
 
-.start-button, .start-button2 {
+.start-button,
+.start-button2 {
     font-size: 60px;
     background-color: rgba(255, 255, 255, 0.6);
     color: var(--blue);
@@ -158,11 +159,12 @@ body {
     color: var(--red);
 }
 
-#start:hover, #start2:hover {
+#start:hover,
+#start2:hover {
     cursor: pointer;
     box-shadow: 1px 1px 1px;
     transition: transform 100ms;
-    transform: scale(1.10);  
+    transform: scale(1.10);
 }
 
 .small-text {
@@ -230,6 +232,7 @@ text {
     width: 30px;
     height: 30px;
 }
+
 .opening {
     font-size: 30px;
     font-weight: bold;
@@ -247,6 +250,7 @@ text {
     grid-template-columns: repeat(1, auto);
     gap: 10px;
     padding: 10px 50px 10px;
+    justify-content: center;
 }
 
 table {
@@ -278,9 +282,11 @@ th {
     .button-grid {
         grid-template-columns: repeat(1, auto);
     }
+
     .restart {
         font-size: 30px;
     }
+
     .text {
         font-size: 40px;
     }
