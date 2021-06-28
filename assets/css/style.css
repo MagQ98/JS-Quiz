@@ -8,13 +8,6 @@
     font-family: 'Nova Square', sans-serif;
 }
 
-:root {
-    --blue: rgb(79, 98, 186);
-    --red: rgb(200, 45, 68);
-    --green: rgb(78, 188, 85);
-    --orange: rgb(255, 111, 71);
-}
-
 body {
     background: no-repeat center center fixed;
     background-size: cover;
@@ -25,6 +18,14 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/*Color variables*/
+:root {
+    --blue: rgba(79, 98, 186);
+    --red: rgba(200, 45, 68);
+    --green: rgba(78, 188, 85);
+    --orange: rgba(255, 111, 71);
 }
 
 /*Game button styles*/
@@ -48,7 +49,7 @@ body {
     padding: 25px 100px;
     font-size: 20px;
     color: black;
-    background-color: rgb(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .begin-grid {
@@ -90,15 +91,15 @@ body {
 }
 
 .button5 {
-    background-color: rgb(79, 98, 186, 0.9);
+    background-color: rgba(79, 98, 186, 0.9);
 }
 
 .button6 {
-    background-color: rgb(200, 45, 68, 0.9);
+    background-color: rgba(200, 45, 68, 0.9);
 }
 
 .button7 {
-    background-color: rgb(78, 188, 85, 0.9);
+    background-color: rgba(78, 188, 85, 0.9);
 }
 
 /*Background Images*/
@@ -124,7 +125,7 @@ body {
 .play1 {
     color: var(--blue);
     border-color: var(--blue);
-    background-color: rgb(176,196,222,0.8);
+    background-color: rgba(176,196,222,0.8);
     font-weight: 600;
     font-size: 30px;
 }
@@ -132,9 +133,13 @@ body {
 .play2 {
     color: var(--red);
     border-color: var(--red);
-    background-color: rgb(231, 151, 163, 0.8);
+    background-color: rgba(231, 151, 163, 0.8);
     font-weight: 600;
     font-size: 30px;
+}
+
+.score-home {
+    padding: 50px;
 }
 
 /*Quiz button and container stylings*/
@@ -177,7 +182,7 @@ text {
     font-family: 'Nova Square', sans-serif;
     margin: 0;
     padding: 15px;
-    font-size: 1.25em;
+    font-size: 1.2em;
 }
 
 .restart {
@@ -232,7 +237,7 @@ text {
     padding: 10px;
 }
 
-/*End page*/
+/*End.html page*/
 
 .end-grid {
     display: grid;
@@ -268,7 +273,9 @@ th {
     font-size: 25px
 }
 
-@media screen and (max-width: 600px) {
+/*Media screen only needed for single column*/
+
+@media screen and (max-width: 800px) {
     .button-grid {
         grid-template-columns: repeat(1, auto);
     }

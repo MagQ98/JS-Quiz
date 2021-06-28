@@ -1,4 +1,4 @@
-<img>
+<img src="" alt="Am I Responsive view" style="max-width:100%;">
 
 User Experience
 ======
@@ -6,18 +6,26 @@ User Experience
 ### Target Audience
 <ul> 
 <li>Fans of the Mass Effect franchise by Bioware</li>
+<li>People aged 16 to 35 which is the target audience of the game</li>
+<li>Fans of gaming consoles such as Xbox, Playstation and PC</li>
+<li>People looking to pass time and and expand their test their knowledge of the Mass Effect game</li>
 <li>The gaming community as a whole</li>
-<li>Mass effect fans who wish to further test thier knowledge of the game</li>
+<li>Trivia fans a those looking to have some fun while expanding their knowledge of the games</li>
 </ul>
 
 ### User Requirements
 <ul>
 <li>A simple and efficient navigation system, suitable for any age</li>
+<li>Clickable links that lead to corresponding pages</li>
+<li>Attractive images that relate to the game</li>
+<li>Bright fun colors that enhance and match the background images</li>
 <li>Bright and eye-catching presentation</li>
+<li>Factual questions and answers all relating to the game franchise</li>
 <li>Good accessibility</li>
 <li>High quality photos and functioning buttons</li>
 <li>Images and colors throughout the site that relate to the game</li>
 <li>Factual information that they can test their knowledge against</li>
+<li>Different difficulty settings for the quiz</li>
 </ul>
 
 ### User Stories
@@ -27,31 +35,44 @@ User Experience
 <li>I want to easily understand the main purpose of the site and learn more about the game Mass Effect</li>
 <li>I want to know I can trust any information provided by the website</li>
 <li>I want the site to be visually appealing</li>
+<li>I want to be able to easily navigate the site</li>
 <li>I want corresponding links and buttons that lead to the pages they're indicated to</li>
+<li>I want to be able to quickly restart the quiz at any time I need</li>
+<li>I want colors and images that are eye-catching and will help keep my attention</li>
+<li>I want to be able to change the difficulty setting of the quiz</li>
+<li>I want to be able to see other users highscores</li>
+<li>I want a progress bar to see what question I'm on and to immediately be able to see the result of the previously answered questions</li>
+<li>I want all pictures and fonts to relate back to the videogame</li>
 </ul>
 
 #### Returning User
 <ul>
 <li>I want to see more Mass Effect questions</li>
-<li>I want to see a broader range of shark species and some information about any breed listed</li>
-<li>I want more information regarding donating and information about the causes and a place to donate via the site</li>
 <li>I want to be able to provide feedback about the site and submit any suggestions I might have that I would like to see added to the site</li>
 <li>I want to see more social media and youtube links to help me connect to the community involved with Mass Effect</li>
-<li></li>
+<li>I want there to be more questions in the quiz when you return to the site</li>
+<li>I want there to be the option to answer questions about a specific category in the game</li>
+<li>I want to be able to log my Highscore live and compare it to others</li>
+<li>I want to see more pictures with each questions</li>
+<li>I want to be able to go back to a previously answered question and change my answer</li>
 </ul>
 
 Design
 ======
 
 ### Structure
-<p>The site is designed and structured in a way that is user friendly, easy to navigate and eye-catching. Upon clicking into the site, the user is greeted with a fun, colourful display and a centred logo and a navigation bar, containing four separate pages.</p>
-<p>A home page containing an introduction to what the site is about and relevant information regarding sharks.</p>
-<p>A facts page filled with 10 interesting facts.</p>
-<p>A species page containing a gallery.</p>
-<p>A donation page with relevant, trustworthy links to donate.</p>
+<p>The site is structured in a simple, easy to navigate way</p>
+<p>The buttons and clickable links are big and easy to find</p>
+<p>The homepage provides you with somewhere to navigate to all corresponding pages</p>
+<p>The start page contains buttons and links which allow users to chose their preferred difficulty setting</p>
+<p>There is also a highscore button for users to see the highest scorer and compare scores</p>
+<p>Th quiz itself contains a question and 4 clickable answers</p>
+<p>There is a live progress bar below the answers to inform the user of their current score</p>
+<p>There is a restart buttton for the user to restart the quiz at any time</p>
 
 ### Color
-<p>For the colour scheme blues, greys and whites were chosen to match the colours of images on the page and also the colour theme of sharks themselves</p>
+<p>For the color scheme, the main buttons design was choosen to reflect the design used in the Mass Effect franchises user interface</p>
+<p>The colorful buttons were chosen to make the webpage look more appealing and eye-catching</p>
 <p>After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right</p> 
 
 ### Typography
@@ -60,23 +81,29 @@ Design
 ### Wireframes
 <details>
 <summary>Homepage</summary>
-<img src="" width="100%">
+<img src="assets/images/Index-page.png" width="100%">
 </details>
 <details>
 <summary>Game page</summary>
-<img src="" width="100%">
+<img src=".../images/Game-page.png" width="100%">
 </details>
 <details>
 <summary>End page</summary>
-<img src="" width="100%">
+<img src=".../assets/images/End-page.png" width="100%">
 </details>
 <details>
 <summary>Highscore page</summary>
-<img src="" width="100%">
+<img src="/images/Highscore-page.png" width="100%">
 </details>
 
 Features
 ======
+
+### Home Page
+### Start Buttons
+### Quiz Page
+### Highscore Page
+### End Page
 
 ### Navigation Bar
 <ul>
@@ -134,7 +161,8 @@ Features
 ### Future features to implement
 <ul>
 <li>Plan to create corresponding social media sites and link them in the footer</li>
-<li>Plan to link and provide information to local services that aid sharks and marine life in emergencies</li>
+<li>Plan to add more questions to the quiz and add another difficulty level</li>
+<li>Plan to add a Highscore page that records each users score and allows them to submit it</li>
 </ul>
 
 Technologies Used
@@ -145,12 +173,13 @@ Technologies Used
 <ul>
 <li>HTML</li>
 <li>CSS</li>
+<li>Javascript</li>
 </ul>
 
 ### Frameworks & Tools
 
 <ul>
-<li>Balsamiq</li>
+<li>Mockflow</li>
 <li>Tinypng</li>
 <li>Git</li>
 <li>GitHub</li>
@@ -169,6 +198,9 @@ No errors were returned when passing through the official W3C validator
 
 ### Css
 No errors were found when passing through the official (Jigsaw) validator
+
+### Javascript
+No errors were found when passing through the official JSHint validator
 
 ### Fixed Bugs or Issues
 <ul>
