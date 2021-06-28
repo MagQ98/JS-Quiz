@@ -265,9 +265,9 @@ th {
     padding: 20px 0px
 }
 
-#score-box {
+/*#score-box {
     height: 96vh;
-}
+}*/
 
 #home-button {
     font-size: 25px
@@ -281,5 +281,8 @@ th {
     }
     .restart {
         font-size: 30px;
+    }
+    .text {
+        font-size: 50px;
     }
 }

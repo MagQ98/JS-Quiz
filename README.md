@@ -1,4 +1,3 @@
-<img src="../JS-Quiz/assets/images/Highscore-page.png" alt="Am I Responsive view" width="100%">
 <img src="assets/images/Highscore-page.png" alt="Am I Responsive view" width="100%">
 
 User Experience
@@ -82,20 +81,19 @@ Design
 ### Wireframes
 <details>
 <summary>Homepage</summary>
-<img src="../JS-Quiz/assets/images/Index-page.png" width="100%">
-<img >
+<img src="assets/images/Index-page.png" alt="Homepage wireframe" width="100%">
 </details>
 <details>
 <summary>Game page</summary>
-<img src="../JS-Quiz/assets/images/Game-page.png" width="100%">
+<img src="assets/images/Game-page.png" alt="Gamepage wireframe" width="100%">
 </details>
 <details>
 <summary>End page</summary>
-<img src="../JS-Quiz/assets/images/End-page.png" width="100%">
+<img src="assets/images/End-page.png" alt="Endpage wireframe" width="100%">
 </details>
 <details>
 <summary>Highscore page</summary>
-<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+<img src="assets/images/Highscore-page.png" alt="Highscore page wireframe" width="100%">
 </details>
 
 Features
@@ -107,13 +105,13 @@ Features
 <li>Piques the interests of visitors to give them a overall impression of what the quiz will be like</li>
 <li>Users are given are clear image of what the site is about</li>
 </ul>
-<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+<img src="assets/images/Home.PNG" alt="Homepage" width="100%">
 
 ### Start Buttons
 <ul>
 <li>Allow the users to chose what difficulty quiz they would like to experience</li>
 </ul>
-<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+<img src="assets/images/Start.PNG" alt="Start buttons" width="100%">
 
 ### Quiz Page
 <ul>
@@ -121,21 +119,21 @@ Features
 <li>A live bar for users to track their score and progress</li>
 <li>A restart button which allows the user to restart the quiz at any point or choose another difficulty</li>
 </ul>
-<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+<img src="assets/images/Quiz.PNG" alt="Quiz page" width="100%">
 
 ### Highscore Page
 <ul>
 <li>Displays the highest scoring users data</li>
 <li>Easy accesible and allows the users to compare their scores against others</li>
 </ul>
-<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+<img src="assets/images/Highscore.PNG" alt="Highscore page" width="100%">
 
 ### End Page
 <ul>
 <li>Shows congratulatory text and ends quiz</li>
 <li>Displays buttons for user to use if they wish to start the quiz again, check the highscores or go to the homepage</li>
 </ul>
-<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+<img src="assets/images/End.PNG" alt="End page" width="100%">
 
 Technologies Used
 ======
@@ -179,7 +177,7 @@ No errors were found when passing through the official JSHint validator
 <li>Encountered an issue on mobile screens with sizing. When the site was viewed on a mobile screen the highscore page was zoomed out and the Home button was pushed up and overlaping the Highscore call. I was able to correct this bug by reducing the padding on the content.</li>
 <li>Encountered an issue with Javascript. I followed a tutorial initially but when I decided I would like 2 quizzes with different difficulties that meant I had to rewrite many functions because they werent applicable anymore</li>
 </ul>
-<img src="../JS-Quiz/assets/images/Highscore-page.png" width="100%">
+<img src="assets/images/Edit1.PNG" alt="Fixed Big image" width="100%">
 
 
 Deployment
