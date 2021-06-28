@@ -264,10 +264,15 @@ th {
     height: 96vh;
 }
 
-.score-home {
-    padding: 20px;
-}
-
 #home-button {
     font-size: 25px
+}
+
+@media screen and (max-width: 600px) {
+    .button-grid {
+        grid-template-columns: repeat(1, auto);
+    }
+    .restart {
+        font-size: 30px;
+    }
 }
