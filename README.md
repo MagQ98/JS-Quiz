@@ -16,6 +16,8 @@ User Experience
 <li>Bright and eye-catching presentation</li>
 <li>Good accessibility</li>
 <li>High quality photos and functioning buttons</li>
+<li>Images and colors throughout the site that relate to the game</li>
+<li>Factual information that they can test their knowledge against</li>
 </ul>
 
 ### User Stories
@@ -25,7 +27,7 @@ User Experience
 <li>I want to easily understand the main purpose of the site and learn more about the dangers sharks are facing</li>
 <li>I want to know I can trust any information provided by the website</li>
 <li>I want the site to be visually appealing</li>
-<li>I want corresponding links that lead to social media and donation pages</li>
+<li>I want corresponding links and buttons that lead to social media and donation pages</li>
 </ul>
 
 #### Returning User
