@@ -216,4 +216,5 @@ Credits
 
 ### Acknowledgements
 
-My mentor and tutor for continuous helpful feedback
+Throughout this project I followed multiple tutorials that I used to base my quiz off, I completely interpreted my own style and made the code my own while using the tutorials as a reference.
+My mentor and tutor for continuous helpful feedback.
